@@ -1,8 +1,6 @@
 const express = require('express')
 const exphbs = require('express-handlebars')
 const db = require('./db/connection')
-const Task = require('./models/Task')
-const TaskController = require('./controllers/TaskController')
 const router = require('./routes/taskRoutes')
 
 app = express()
