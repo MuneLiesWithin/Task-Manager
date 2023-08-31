@@ -5,13 +5,4 @@ const sequelize = new Sequelize('nodemvc', 'root', 'root', {
     dialect: 'mysql'
 })
 
-/*
-try {
-    sequelize.authenticate()
-    console.log('Conexão estabelecida com sucesso!')
-} catch (err) {
-    console.log(err)
-}
-*/
-
 module.exports = sequelize
